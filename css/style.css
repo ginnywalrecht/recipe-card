@@ -64,6 +64,10 @@ main {
     color: #F16059;
     font-family: 'Montserrat', serif;
     font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-top: 10px;
+    text-transform: uppercase;
 }
 
 #cookies .image {
@@ -80,3 +84,36 @@ main {
     background-image: url(../img/watermelon-salad.jpg);
     background-size: cover;
 }
+
+.time {
+    border: solid 1px #3B3B3B;
+    margin: 0;
+    overflow: auto;
+    width: 450px;
+}
+ .time div {
+    box-sizing: border-box;
+    float: left;
+    text-transform: uppercase;
+    padding-left: 6px;
+    width: 33.3333%;
+ }
+
+ .time .div img {
+    height: auto;
+    margin-right: 5px;
+    width: 15px;
+    vertical-align: middle;
+ }
+
+ .time .cook {
+    border: solid 1px #3B3B3B;
+ }
+
+ .time-details {
+     display: inline-block;
+ }
+
+ .time strong {
+    font-family: 'Montserrat', serif;
+ }
