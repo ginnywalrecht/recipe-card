@@ -24,11 +24,14 @@ header h1 {
     margin: 0;
     padding: 40px 0;
     text-transform: uppercase;
-    width: 1000px;
 }
 
 header img {
-    margin-right: 15px;
+    display: inline-block;
+    margin-right: 16px;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 /***** MAIN *****/
@@ -70,6 +73,20 @@ main {
     text-transform: uppercase;
 }
 
+.recipe h3 {
+    border-top: solid 1px #3B3B3B;
+    border-bottom: solid 1px #3B3B3B;
+    color: #F16059;
+    font-family: 'Montserrat', serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 30px;
+    padding-left: 5px;
+    text-transform: uppercase;
+}
+
+/***** RECIPE MAIN IMAGES *****/
+
 #cookies .image {
     background-image:url(../img/gluten-free-sugar-cookies.jpg);
     background-size: cover;
@@ -85,35 +102,88 @@ main {
     background-size: cover;
 }
 
+/***** TIME SECTION *****/
+
 .time {
     border: solid 1px #3B3B3B;
     margin: 0;
     overflow: auto;
     width: 450px;
 }
- .time div {
+
+.time div {
     box-sizing: border-box;
     float: left;
     text-transform: uppercase;
-    padding-left: 6px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
     width: 33.3333%;
- }
+}
 
- .time .div img {
+.time div img {
+    display: inline-block;
     height: auto;
+    line-height: 12px;
     margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 5px 0;
     width: 15px;
     vertical-align: middle;
- }
+}
 
- .time .cook {
-    border: solid 1px #3B3B3B;
- }
+.time .cook {
+    border-left: solid 1px #3B3B3B;
+    border-right: solid 1px #3B3B3B;
+}
 
- .time-details {
-     display: inline-block;
- }
+.time-details {
+    display: inline-block;
+    line-height: 12px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 6px;
+    padding-bottom: 5px;
+}
 
- .time strong {
+.time strong {
     font-family: 'Montserrat', serif;
- }
+}
+
+.columns {
+    overflow: auto;
+}
+
+.directions {
+    float: left;
+    width: 240px;
+}
+
+.directions ol {
+    padding-left: 15px;
+}
+
+.directions ol li {
+    line-height: 20px;
+}
+
+.ingredients {
+    float: left;
+    margin-right: 5px;
+    width: 205px;
+}
+
+.ingredients ul {
+    padding-left: 15px;
+}
+
+.ingredients ul li {
+    list-style-type: square;
+    line-height: 20px;
+}
